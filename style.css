@@ -1,0 +1,598 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+/* header start */
+@font-face {
+    font-family: poppins;
+    src: url(./Poppins-Regular.ttf);
+}
+
+
+
+
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    align-items: center;
+
+}
+
+.nav {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+font-family: poppins;
+    font-size: 18px;
+}
+
+.nav li {
+    list-style: none;
+}
+
+.nav li a {
+    text-decoration: none;
+}
+
+.nav-links button {
+    border: none;
+    background-color: red;
+    border-radius: 4px;
+    padding: 9px 25px;
+
+
+}
+
+.nav-links button a {
+    text-decoration: none;
+    color: white;
+    font-family: poppins;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+/* header end */
+
+
+/* hero section */
+.hero {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 0px;
+    gap: 100px;
+    position: relative;
+
+}
+
+.heroImg {
+    width: 40%;
+}
+
+.heroImg img {
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.bars {
+    display: none;
+
+}
+ .content {
+    font-size: 40px;
+    font-family: poppins;
+}
+
+.content p {
+    color: rgb(145 148 162);
+    font-size: 20px;
+    font-family: poppins;
+}
+
+
+
+
+
+
+    .rectangle{
+        
+        width: 100%;
+        padding-left: 40px;
+        padding-right: 20px;
+    }
+ 
+
+
+
+
+
+
+
+
+.btns button a {
+    text-decoration: none;
+}
+
+.content .btns button {
+    outline: none;
+    border: none;
+    font-family: poppins;
+    background-color: transparent;
+    font-size: 25px;
+}
+
+.content .btns #first a {
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 5px;
+    padding: 15px 30px;
+
+
+}
+
+.content .btns #second a {
+    background-color: aliceblue;
+    color: black;
+    border-radius: 5px;
+    padding: 15px 30px;
+
+
+
+}
+
+.btns {
+    display: flex;
+    gap: 40px;
+}
+
+.btns #second:hover a {
+    background-color: cornflowerblue;
+    color: white;
+
+}
+
+.btns #first:hover a {
+    background-color: aliceblue;
+    color: black;
+
+}
+
+.back {
+    background-color: rgb(82 103 223);
+    width: 55%;
+    height: 30rem;
+    border-top-left-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    z-index: -5;
+
+    
+    
+
+}
+
+.content img {
+    position: relative;
+}
+
+
+
+
+
+/* second hero */
+.secondhero {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 200px 380px;
+    font-size: 20px;
+    font-family: poppins;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.secondhero p {
+    color: rgb(145 148 162);
+    font-family: poppins;
+    font-size: 30px;
+}
+
+.secondhero h5 {
+    font-size: 40px;
+}
+
+.secondsec {
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    position: relative;
+    
+
+}
+
+.secondcontent p {
+    font-family: poppins;
+    font-size: 25px;
+    color: rgb(145 148 162);
+
+}
+
+.secondcontent h1 {
+    font-size: 30px;
+    font-family: poppins;
+
+}
+
+.secondcontent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info button {
+    border: none;
+    background-color: transparent;
+    background-color: rgb(82 103 223);
+    color: white;
+
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.secondImg {
+    width: 50%;
+}
+
+.secondImg img {
+    width: 100%;
+    padding-left: 50px;
+}
+
+.rectangle {
+    background-color: rgb(82 103 223);
+    width: 40%;
+    height: 30rem;
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    position: absolute;
+    top: 30%;
+    z-index: -5;
+    left: 0px;
+    top: 115rem;
+
+
+}
+
+
+
+
+/* 4th  */
+.fourthrectangle{
+    background-color: rgb(82 103 223);
+    width: 35%;
+    height: 30rem;
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    position: absolute;
+    top: 30%;
+    z-index: -5;
+    left: 0px;
+    top: 25rem;
+    
+
+
+
+}
+.fourthImg{
+    width: 40%;
+
+}
+.fourthImg img{
+    width: 100%;
+}
+
+
+
+
+
+/* media queries */
+
+
+@media screen and (max-width:480px) {
+    .nav {
+        display: none;
+    }
+
+    .bars {
+        display: block;
+    }
+
+    .hero {
+        
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+     .heroImg {
+        width: 100%;
+        padding: 0px 30px;
+        
+    }
+    .content{
+        width: 100%;
+        padding: 0px 20px;
+        text-align: center;
+    }
+    .back{
+        display: none;
+        
+    }
+    .btns{
+        width: 100%;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+
+    .secondhero{
+        width: 100%;
+        padding: 0px 20px;
+        /* display: flex; */
+        justify-content: center;
+        text-align: center;
+        text-align: center;
+    }
+    .secondsec .secondImg{
+        width: 100%;
+        padding: 0px 30px;
+        display-flex:none ;
+        flex-direction: column;
+        
+    }
+    .secondsec {
+
+        /* display: none; */
+    }
+    .secondsec .secondcontent{
+        /* display: none; */
+        
+        /* display:flex;
+        display: flex;
+        flex-direction: column; */
+    }
+    .secondsec{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+     .secondsec .secondcontent{
+        width: 100%;
+        padding: 0px 20px;
+        text-align: center;
+    }
+    .rectangle{
+        display: none;
+    }
+
+
+    .fourthrectangle{
+        display: none;
+    }
+
+
+    }
+
+
+
+    /* tablet */
+    @media screen and (min-width:481px) and ( max-width:768px) {
+    .nav {
+        display: none;
+    }
+
+    .bars {
+        display: block;
+    }
+
+    .hero {
+        
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+     .heroImg {
+        width: 100%;
+        padding: 0px 30px;
+        
+    }
+    .content{
+        width: 100%;
+        padding: 0px 20px;
+        text-align: center;
+    }
+    .back{
+        display: none;
+        
+    }
+    .btns{
+        width: 100%;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+
+    .secondhero{
+        width: 100%;
+        padding: 0px 20px;
+        /* display: flex; */
+        justify-content: center;
+        text-align: center;
+        text-align: center;
+    }
+    .secondsec .secondImg{
+        width: 100%;
+        padding: 0px 30px;
+        display-flex:none ;
+        flex-direction: column;
+        
+    }
+    
+
+    .secondsec{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+     .secondsec .secondcontent{
+        width: 100%;
+        padding: 0px 20px;
+        text-align: center;
+    }
+    .rectangle{
+        display: none;
+    }
+
+
+    .fourthrectangle{
+        display: none;
+    }
+
+
+    }
+
+
+
+    /* desktop */
+
+
+    @media screen and (min-width:769px) and ( max-width:1280px) {
+
+        .nav {
+        display: none;
+    }
+
+    .bars {
+        display: block;
+    }
+
+    .hero {
+        
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+     .heroImg {
+        width: 100%;
+        padding: 0px 30px;
+        
+    }
+    .content{
+        width: 100%;
+        padding: 0px 20px;
+        text-align: center;
+    }
+    .back{
+        display: none;
+        
+    }
+    .btns{
+        width: 100%;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+
+    .secondhero{
+        width: 100%;
+        padding: 0px 20px;
+        /* display: flex; */
+        justify-content: center;
+        text-align: center;
+        text-align: center;
+    }
+    .secondsec .secondImg{
+        width: 100%;
+        padding: 0px 30px;
+        display-flex:none ;
+        flex-direction: column;
+        
+    }
+    .secondsec {
+
+        /* display: none; */
+    }
+    .secondsec .secondcontent{
+        /* display: none; */
+        
+        /* display:flex;
+        display: flex;
+        flex-direction: column; */
+    }
+    .secondsec{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+     .secondsec .secondcontent{
+        width: 100%;
+        padding: 0px 20px;
+        text-align: center;
+    }
+    .rectangle{
+        display: none;
+    }
+
+
+    .fourthrectangle{
+        display: none;
+    }
+
+
+    }
+
+
+
+
+
+
+
+
+    
+
+
+
