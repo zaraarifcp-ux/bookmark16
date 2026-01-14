@@ -27,7 +27,7 @@
     display: flex;
     gap: 35px;
     align-items: center;
-font-family: poppins;
+    font-family: poppins;
     font-size: 18px;
 }
 
@@ -89,7 +89,8 @@ font-family: poppins;
     display: none;
 
 }
- .content {
+
+.content {
     font-size: 40px;
     font-family: poppins;
 }
@@ -105,13 +106,13 @@ font-family: poppins;
 
 
 
-    .rectangle{
-        
-        width: 100%;
-        padding-left: 40px;
-        padding-right: 20px;
-    }
- 
+.rectangle {
+
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
 
 
 
@@ -179,8 +180,8 @@ font-family: poppins;
     top: 50%;
     z-index: -5;
 
-    
-    
+
+
 
 }
 
@@ -224,7 +225,7 @@ font-family: poppins;
     align-items: center;
     gap: 100px;
     position: relative;
-    
+
 
 }
 
@@ -287,7 +288,7 @@ font-family: poppins;
 
 
 /* 4th  */
-.fourthrectangle{
+.fourthrectangle {
     background-color: rgb(82 103 223);
     width: 35%;
     height: 30rem;
@@ -298,18 +299,163 @@ font-family: poppins;
     z-index: -5;
     left: 0px;
     top: 25rem;
-    
+
 
 
 
 }
-.fourthImg{
+
+.fourthImg {
     width: 40%;
 
 }
-.fourthImg img{
+
+.fourthImg img {
     width: 100%;
 }
+
+
+
+
+/* extension */
+
+.extension {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 170px;
+    background: aliceblue;
+
+}
+
+.ext {
+    width: 40%;
+    height: 40%;
+    text-align: center;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: solid;
+    border-radius: 5px;
+    border-top: 0px;
+   
+
+
+}
+
+.one {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+
+    align-items: center;
+}
+
+.one img {
+    width: 25%;
+    margin-top: 20px;
+}
+
+.one h3 {
+
+    font-family: poppins;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.one p {
+     font-family: poppins;
+    font-size: 25px;
+    color: rgb(145 148 162);
+
+}
+
+.firefox {
+    
+    padding-top: 70px;
+}
+
+.opera {
+    padding-top: 100px;
+}
+
+
+/* Questions */
+
+
+.FAQs h3{
+    text-align: center;
+    font-family: poppins;
+    font-size: 1.5rem;
+    line-height: 2rem;
+
+}
+.FAQs p{
+     font-family: poppins;
+    font-size: 20px;
+    color: rgb(145 148 162);
+    text-align: center;
+
+}
+.FAQs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 200px;
+    
+}
+.questionsfaqs{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 10px 0px;
+    
+}
+.question1{
+    display: flex;
+    align-items: center;
+    
+    gap: 200px;
+    
+    padding: 20px 0px;
+    border-bottom: 1px solid rgb(229,231,235);
+    font-size: 20px;
+    font-family: poppins;
+    
+
+    
+
+    
+}
+
+.moreinfo{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.moreinfo button{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    
+     border: none;
+    background-color: transparent;
+    background-color: rgb(82 103 223);
+    color: white;
+
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-size: 25px;
+    
+}
+
+
+    
+
 
 
 
@@ -328,27 +474,30 @@ font-family: poppins;
     }
 
     .hero {
-        
+
         display: flex;
         flex-direction: column;
-    
+
     }
 
-     .heroImg {
+    .heroImg {
         width: 100%;
         padding: 0px 30px;
-        
+
     }
-    .content{
+
+    .content {
         width: 100%;
         padding: 0px 20px;
         text-align: center;
     }
-    .back{
+
+    .back {
         display: none;
-        
+
     }
-    .btns{
+
+    .btns {
         width: 100%;
         padding: 40px;
         display: flex;
@@ -358,7 +507,7 @@ font-family: poppins;
 
 
 
-    .secondhero{
+    .secondhero {
         width: 100%;
         padding: 0px 20px;
         /* display: flex; */
@@ -366,51 +515,140 @@ font-family: poppins;
         text-align: center;
         text-align: center;
     }
-    .secondsec .secondImg{
+
+    .secondsec .secondImg {
         width: 100%;
         padding: 0px 30px;
-        display-flex:none ;
+        display-flex: none;
         flex-direction: column;
-        
-    }
-    .secondsec {
 
-        /* display: none; */
     }
-    .secondsec .secondcontent{
-        /* display: none; */
-        
-        /* display:flex;
-        display: flex;
-        flex-direction: column; */
-    }
-    .secondsec{
+
+
+
+    .secondsec {
         display: flex;
         flex-direction: column;
     }
-    
-    
-     .secondsec .secondcontent{
+
+
+    .secondsec .secondcontent {
         width: 100%;
         padding: 0px 20px;
         text-align: center;
     }
-    .rectangle{
+
+    .rectangle {
         display: none;
     }
 
 
-    .fourthrectangle{
+    .fourthrectangle {
         display: none;
     }
+}
 
 
-    }
+
 
 
 
     /* tablet */
-    @media screen and (min-width:481px) and ( max-width:768px) {
+    @media screen and (min-width:481px) and (max-width:768px){
+
+    
+        .nav {
+            display: none;
+        }
+
+        .bars {
+            display: block;
+        }
+
+        .hero {
+
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .heroImg {
+            width: 100%;
+            padding: 0px 30px;
+
+        }
+
+        .content {
+            width: 100%;
+            padding: 0px 20px;
+            text-align: center;
+        }
+
+        .back {
+            display: none;
+
+        }
+
+        .btns {
+            width: 100%;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+        }
+
+
+
+
+        .secondhero {
+            width: 100%;
+            padding: 0px 20px;
+
+            justify-content: center;
+            text-align: center;
+            text-align: center;
+        }
+
+        .secondsec .secondImg {
+            width: 100%;
+            padding: 0px 30px;
+            display-flex: none;
+            flex-direction: column;
+
+        }
+
+
+        .secondsec {
+            display: flex;
+            flex-direction: column;
+        }
+
+
+        .secondsec .secondcontent {
+            width: 100%;
+            padding: 0px 20px;
+            text-align: center;
+        }
+
+        .rectangle {
+            display: none;
+        }
+
+
+        .fourthrectangle {
+            display: none;
+        }
+
+
+    
+}
+
+
+
+/* desktop */
+
+
+@media screen and (min-width:769px) and (max-width:1280px) {
+
     .nav {
         display: none;
     }
@@ -420,27 +658,30 @@ font-family: poppins;
     }
 
     .hero {
-        
+
         display: flex;
         flex-direction: column;
-    
+
     }
 
-     .heroImg {
+    .heroImg {
         width: 100%;
         padding: 0px 30px;
-        
+
     }
-    .content{
+
+    .content {
         width: 100%;
         padding: 0px 20px;
         text-align: center;
     }
-    .back{
-        display: none;
-        
+
+    .back {
+        /* display: none; */
+
     }
-    .btns{
+
+    .btns {
         width: 100%;
         padding: 40px;
         display: flex;
@@ -450,149 +691,45 @@ font-family: poppins;
 
 
 
-    .secondhero{
+    .secondhero {
         width: 100%;
         padding: 0px 20px;
-        /* display: flex; */
+        /* display:flex; */
+
         justify-content: center;
         text-align: center;
         text-align: center;
     }
-    .secondsec .secondImg{
+
+    .secondsec .secondImg {
         width: 100%;
         padding: 0px 30px;
-        display-flex:none ;
+        display-flex: none;
         flex-direction: column;
-        
-    }
-    
-
-    .secondsec{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    
-     .secondsec .secondcontent{
-        width: 100%;
-        padding: 0px 20px;
-        text-align: center;
-    }
-    .rectangle{
-        display: none;
-    }
-
-
-    .fourthrectangle{
-        display: none;
-    }
-
 
     }
 
 
-
-    /* desktop */
-
-
-    @media screen and (min-width:769px) and ( max-width:1280px) {
-
-        .nav {
-        display: none;
-    }
-
-    .bars {
-        display: block;
-    }
-
-    .hero {
-        
-        display: flex;
-        flex-direction: column;
-    
-    }
-
-     .heroImg {
-        width: 100%;
-        padding: 0px 30px;
-        
-    }
-    .content{
-        width: 100%;
-        padding: 0px 20px;
-        text-align: center;
-    }
-    .back{
-        display: none;
-        
-    }
-    .btns{
-        width: 100%;
-        padding: 40px;
-        display: flex;
-        flex-direction: column;
-    }
-
-
-
-
-    .secondhero{
-        width: 100%;
-        padding: 0px 20px;
-        /* display: flex; */
-        justify-content: center;
-        text-align: center;
-        text-align: center;
-    }
-    .secondsec .secondImg{
-        width: 100%;
-        padding: 0px 30px;
-        display-flex:none ;
-        flex-direction: column;
-        
-    }
     .secondsec {
-
-        /* display: none; */
-    }
-    .secondsec .secondcontent{
-        /* display: none; */
-        
-        /* display:flex;
-        display: flex;
-        flex-direction: column; */
-    }
-    .secondsec{
         display: flex;
         flex-direction: column;
     }
-    
-    
-     .secondsec .secondcontent{
+
+
+    .secondsec .secondcontent {
         width: 100%;
         padding: 0px 20px;
         text-align: center;
     }
-    .rectangle{
+
+    .rectangle {
         display: none;
     }
 
 
-    .fourthrectangle{
+    .fourthrectangle {
         display: none;
     }
 
 
-    }
-
-
-
-
-
-
-
-
-    
-
-
-
+}
